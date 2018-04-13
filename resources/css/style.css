@@ -344,3 +344,10 @@ footer ul li a{
   padding-left: 1rem;
   color: #424242;
 }
+
+@@media only screen and (max-width: 470px) {
+
+  .logo h2{
+    display: none;
+  }
+}
