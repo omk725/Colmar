@@ -1,0 +1,346 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  height: auto;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+  line-height: 1.2;
+  font-family: sans-serif;
+  border: 1px solid #d3d3d3;
+  color: #424242;
+}
+
+h1{
+  font-size: 2rem;
+}
+h2{
+font-size: 1.5rem;
+}
+h3{
+  font-size: 1.17rem;
+}
+h4{
+  font-size: 1.12rem;
+}
+h5{
+  font-size: .83rem;
+}
+h6{
+  font-size: .75rem;
+}
+
+/*header*/
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 1.5rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #424242;
+}
+
+.logo h2{
+  color: #94999e;
+}
+
+.header nav ul{
+  display: flex;
+
+}
+
+.header li a{
+  margin-left: 1rem;
+  padding-bottom: 0.25rem;
+  text-align: center;
+  color:black;
+  transition: border .1s linear;
+}
+
+.header a:hover{
+  border-bottom: 2px solid #ce9a33;
+}
+
+
+
+/*banner*/
+.banner{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2rem 1.5rem;
+  background-color: #d3d3d3;
+}
+
+.banner img{
+  width: 60%;
+  height: 100%
+}
+
+.banner-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.banner-right h1{
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+.banner-right p{
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.banner-right a{
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: white;
+  background-color: #505254;
+  transition: background-color: .1s ease-out, font-weight .1 ease out;
+}
+
+.banner-right a:hover{
+  background-color: #ce9a33;
+  font-weight: bold;
+}
+
+/*main*/
+
+.main{
+  display: flex;
+}
+
+.main-left{
+  flex-basis: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-left img{
+  width: 100%;
+}
+
+.main-left h1{
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.main-left p{
+  padding-bottom: 2rem;
+}
+.main-left span{
+  font-weight: 600;
+}
+
+.main-right{
+  flex-basis: 40%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-left: 1.5px solid #d3d3d3;
+}
+
+.orientation, .campus, .guest{
+  display: flex;
+}
+
+.orientation{
+  border-bottom:  1.5px solid #d3d3d3;
+}
+
+.guest{
+  background-color: #d3d3d3;
+}
+
+.main-right img{
+  padding: 1rem;
+  width: 35%;
+  height: 100%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h3{
+  font-weight: 700;
+}
+
+.info p, .info a{
+  font-size: .9rem;
+  padding-top: 1rem;
+}
+
+.main .info a{
+  color: #147aba;
+}
+
+/*courses*/
+
+.courses{
+  padding: 2rem;
+  background-color: #e0e0e0;
+}
+
+.courses h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.course-catalog{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.course-top, .course-bottom{
+  display: flex;
+}
+
+.course-top{
+  padding-bottom: 2rem;
+}
+
+.course{
+  width: 30%;
+  background-color: white;
+}
+
+.course-info{
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-info h3{
+  font-weight: 700;
+}
+
+.course-info p{
+  padding-top: .5rem;
+  font-weight: lighter;
+}
+
+.course:first-child{
+  margin-right: 2rem;
+}
+
+.course:last-child{
+  margin-left: 2rem;
+}
+
+.course img{
+  width: 100%;
+  height: auto;
+}
+
+/*thesis*/
+
+.thesis-section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.thesis-section h1{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.thesis-container{
+  display: flex;
+}
+
+.thesis-left{
+  flex-basis: 60%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.thesis-left video{
+  width: 100%;
+}
+
+.thesis-left h3{
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+  font-weight: 700;
+}
+
+.thesis-right{
+  display: flex;
+  flex-basis: 40%;
+  flex-direction: column;
+}
+
+.thesis{
+  display: flex;
+}
+
+.thesis:first-child{
+  background-color: #d3d3d3;
+}
+
+.thesis-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.thesis img{
+  padding: 1rem;
+  width: 35%;
+  height: 100%;
+}
+
+.thesis-info h3{
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.thesis-left p{
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.thesis-info p{
+  font-weight: lighter;
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  border-top:  1px solid #d3d3d3;
+  padding: 1rem 2rem;
+  font-size: .75rem;
+  font-weight: 350;
+}
+
+.copyright{
+  flex-grow: 1;
+}
+
+footer .info ul{
+  display: flex;
+}
+
+footer ul li a{
+  padding-left: 1rem;
+  color: #424242;
+}
