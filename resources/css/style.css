@@ -5,6 +5,7 @@ html{
 body{
   height: auto;
   margin: 0 auto;
+  padding: 0 auto;
   max-width: 1024px;
   width: 100%;
   line-height: 1.2;
@@ -351,10 +352,6 @@ footer ul li a{
 
 @media only screen and (max-width: 470px) {
 
-body{
-  width: 100%;
-  background-color: pink;
-}
 
 /*nav*/
 
@@ -395,6 +392,7 @@ body{
 
   .main, .orientation, .campus, .guest{
     flex-direction: column;
+    width: 100%;
   }
 
   .main-left{
@@ -402,7 +400,16 @@ body{
   }
 
   .main-right img{
-    width: 100%;
+    width: 92%;
   }
 
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3){
+  .desktop{
+    background-color: pink;
+  }
 }
