@@ -412,7 +412,7 @@ footer ul li a{
     padding-bottom: 4rem;
   }
 
-  .guest, {
+  .guest {
     background-color: white;
     padding-bottom: 2rem;
   }
@@ -454,5 +454,37 @@ footer ul li a{
   .courses img, .courses p{
     display: none;
   }
+
+  /*thesis*/
+
+  .thesis-section{
+    padding-bottom: 1.5rem;
+  }
+
+  .thesis-right{
+    display: none;
+  }
+
+  .thesis-left{
+    flex-basis: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .thesis-left h3, .thesis-left p{
+    display: none;
+  }
+
+  /*footer*/
+
+  footer{
+    border: none;
+  }
+
+
+  .footer-info{
+    display: none;
+  }
+
 
 }
