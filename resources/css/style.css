@@ -32,6 +32,10 @@ h6{
   font-size: .75rem;
 }
 
+.mobile{
+  display: none;
+}
+
 /*header*/
 
 .header{
@@ -336,7 +340,7 @@ footer{
   flex-grow: 1;
 }
 
-footer .info ul{
+.footer-info ul{
   display: flex;
 }
 
@@ -345,9 +349,60 @@ footer ul li a{
   color: #424242;
 }
 
-@@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
 
-  .logo h2{
+body{
+  width: 100%;
+  background-color: pink;
+}
+
+/*nav*/
+
+  .desktop{
     display: none;
   }
+
+  .mobile{
+    display: block;
+  }
+
+  nav{
+    flex-grow: 4;
+  }
+
+  nav ul{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header li a{
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+
+  /*banner*/
+
+  .banner{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .banner img{
+    width: 100%;
+  }
+
+  /*main*/
+
+  .main, .orientation, .campus, .guest{
+    flex-direction: column;
+  }
+
+  .main-left{
+    display: none;
+  }
+
+  .main-right img{
+    width: 100%;
+  }
+
 }
