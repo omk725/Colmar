@@ -399,8 +399,60 @@ footer ul li a{
     display: none;
   }
 
+  .main-right{
+    padding: 0;
+  }
+
   .main-right img{
-    width: 92%;
+    width: 91.5%;
+  }
+
+  .main-right .info{
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .guest, {
+    background-color: white;
+    padding-bottom: 2rem;
+  }
+
+  .courses{
+    background-color: white;
+    border: .5px solid #d3d3d3;
+  }
+
+  .orientation{
+    border: none;
+  }
+
+  /*courses*/
+
+  .course-catalog, .course-top, .course-bottom{
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .course:first-child{
+    margin-right: 0rem;
+  }
+
+  .course:last-child{
+    margin-left: 0rem;
+  }
+
+  .course{
+    background-color: #d3d3d3;
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+
+  .course: last-child{
+    margin-bottom: 0;
+  }
+
+  .courses img, .courses p{
+    display: none;
   }
 
 }
