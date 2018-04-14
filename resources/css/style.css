@@ -488,3 +488,38 @@ footer ul li a{
 
 
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {.thesis-section{
+  padding-bottom: 1.5rem;
+}
+
+.thesis-right{
+  display: none;
+}
+
+.thesis-left{
+  flex-basis: 100%;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.thesis-left h3, .thesis-left p{
+  display: none;
+}
+
+/*footer*/
+
+footer{
+  border: none;
+}
+
+
+.footer-info{
+  display: none;
+}
+
+}
