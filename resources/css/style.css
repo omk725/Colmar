@@ -39,7 +39,7 @@ h6{
 
 /*header*/
 
-.header{
+header{
   display: flex;
   align-items: center;
   height: 4rem;
@@ -62,12 +62,12 @@ h6{
   color: #94999e;
 }
 
-.header nav ul{
+header nav ul{
   display: flex;
 
 }
 
-.header li a{
+header li a{
   margin-left: 1rem;
   padding-bottom: 0.25rem;
   text-align: center;
@@ -75,7 +75,7 @@ h6{
   transition: border .1s linear;
 }
 
-.header a:hover{
+header a:hover{
   border-bottom: 2px solid #ce9a33;
 }
 
@@ -372,7 +372,7 @@ footer ul li a{
     align-items: center;
   }
 
-  .header li a{
+  header li a{
     margin-left: 0;
     padding-bottom: 0;
   }
